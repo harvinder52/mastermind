@@ -22,8 +22,9 @@ class mastermind{
 while(guesses<7){ 
     
 
-    Scanner guessObj = new Scanner(System.in); 
-    System.out.println("Enter your guess");
+    Scanner guessObj = new Scanner(System.in);
+    System.out.println("The - sign represent the value at correct position. The + sign represent value is valid but at wrong positon") 
+    System.out.println("Enter your 4 digit guess:");
     int guess = guessObj.nextInt();
 
     String guessStr =  Integer.toString(guess);
@@ -34,9 +35,7 @@ while(guesses<7){
         char csb = ch[i];
 
 
-        if(i==answerStr.indexOf(String.valueOf(csb))){
-            System.out.print("Y");
-        }
+        
         
            if((answerStr.contains(String.valueOf(csb))) && (i==answerStr.indexOf(String.valueOf(csb)))) {
             System.out.println("-");
