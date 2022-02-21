@@ -12,10 +12,10 @@ class mastermind{
     int d = random.nextInt(6);
 
     
-    System.out.print(a);
-    System.out.print(b);
-    System.out.print(c);
-    System.out.print(d);
+    // System.out.print(a);
+    // System.out.print(b);
+    // System.out.print(c);
+    // System.out.print(d);
 
     int answer = Integer.parseInt(Integer.toString(a) + Integer.toString(b)+ Integer.toString(c)+ Integer.toString(d));
     String answerStr = Integer.toString(a) + Integer.toString(b)+ Integer.toString(c)+ Integer.toString(d);
@@ -23,7 +23,7 @@ while(guesses<7){
     
 
     Scanner guessObj = new Scanner(System.in);
-    System.out.println("The - sign represent the value at correct position. The + sign represent value is valid but at wrong positon") 
+    System.out.println("The - sign represent the value at correct position. The + sign represent value is valid but at wrong positon"); 
     System.out.println("Enter your 4 digit guess:");
     int guess = guessObj.nextInt();
 
