@@ -18,7 +18,9 @@ class mastermind{
     // System.out.print(d);
 
     int answer = Integer.parseInt(Integer.toString(a) + Integer.toString(b)+ Integer.toString(c)+ Integer.toString(d));
-    String answerStr = Integer.toString(a) + Integer.toString(b)+ Integer.toString(c)+ Integer.toString(d);
+    //String answerStr = Integer.toString(a) + Integer.toString(b)+ Integer.toString(c)+ Integer.toString(d);
+     String answerStr = "2331";
+
 while(guesses<7){ 
     
 
@@ -45,7 +47,9 @@ while(guesses<7){
                 System.out.print("+");
             }
        }
-           
+           //2331
+           //1231
+           //++--
         
 
     if(guess==answer){
