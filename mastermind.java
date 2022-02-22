@@ -25,11 +25,7 @@ while(guesses<7){
     
 
     Scanner guessObj = new Scanner(System.in);
-<<<<<<< HEAD
     System.out.println("\nThe - sign represent the value at correct position. The + sign represent value is valid but at wrong positon"); 
-=======
-    System.out.println("The - sign represent the value at correct position. The + sign represent value is valid but at wrong positon"); 
->>>>>>> 6a9437b6478d5d5aeaf084644d128bde90b733b6
     System.out.println("Enter your 4 digit guess:");
     int guess = guessObj.nextInt();
 
@@ -52,9 +48,9 @@ while(guesses<7){
             }
        }
            //2331
-           //1231
-           //++--
-        
+           
+           //1231 ++-- y
+           //3221 -++  
 
     if(guess==answer){
        System.out.println("you win");
